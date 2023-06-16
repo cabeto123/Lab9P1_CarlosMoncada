@@ -21,9 +21,10 @@ public class Lab9P1_CarlosMoncada {
         ArrayList<Integer> arreglo = new ArrayList<Integer>();
         ArrayList<Integer> arreglo2 = new ArrayList<Integer>();
         int opcion = 1;
-        while (opcion != 4) {
-            System.out.println("1.Trianguolar recursivo");
+        while (opcion != 3) {
+            System.out.println("1.Triangular recursivo");
             System.out.println("2.Fusion descendente");
+            System.out.println("3.Salir");
             opcion=entrada.nextInt();
             
             switch (opcion) {
